@@ -1,99 +1,57 @@
-Academic Management System
+# Academic Management System
 
 A Flask‑based web application backed by MySQL that streamlines academic activities through three dedicated portals—Student, Teacher, and Admin.
 
-Features
+## Features
 
-Student Portal
+### Student Portal
 
-Dashboard with course overview, upcoming assignments, and announcements
+- Dashboard with course overview, upcoming assignments, and announcements
+- Course registration and drop functionality
+- View attendance records
+- Submit assignments
+- Check grades and exam results
+- View academic transcript
+- Access financial records
+- Browse library and check out books
+- View class schedule
 
-Course registration and drop functionality
+### Teacher Portal
 
-View attendance records
+- Dashboard with teaching schedule and upcoming assignments
+- Manage courses and sections
+- Take attendance
+- Create and grade assignments
+- Post announcements
+- Manage exam results
+- Set office hours
 
-Submit assignments
+### Admin Portal
 
-Check grades and exam results
+- Comprehensive user management (students, teachers, admins)
+- Course and department management
+- Semester and academic period configuration
+- Section and schedule management
+- Financial record management
+- Library management (books and loans)
+- Internship opportunity management
+- Data import/export functionality
 
-View academic transcript
+## Technologies Used
 
-Access financial records
+- Backend: Python with Flask framework
+- Database: MySQL with Flask-MySQLdb connector
+- Frontend: HTML, CSS, JavaScript with Jinja2 templating
+- Security: SHA-256 password hashing, session management
+- File Handling: Secure file uploads for assignments and profile pictures
+- Additional Libraries:
+  - Werkzeug for security utilities
+  - OpenPyXL for Excel file handling
+  - CSV and JSON for data export
 
-Browse library and check out books
+## Installation
 
-View class schedule
-
-Teacher Portal
-
-Dashboard with teaching schedule and upcoming assignments
-
-Manage courses and sections
-
-Take attendance
-
-Create and grade assignments
-
-Post announcements
-
-Manage exam results
-
-Set office hours
-
-Admin Portal
-
-Comprehensive user management (students, teachers, admins)
-
-Course and department management
-
-Semester and academic period configuration
-
-Section and schedule management
-
-Financial record management
-
-Library management (books and loans)
-
-Internship opportunity management
-
-Data import/export functionality
-
-Technologies Used
-
-Layer
-
-Technology
-
-Backend
-
-Python (Flask)
-
-Database
-
-MySQL & Flask‑MySQLdb
-
-Frontend
-
-HTML · CSS · JavaScript with Jinja2
-
-Security
-
-SHA‑256 password hashing · Session management
-
-File Handling
-
-Secure file uploads for assignments & profile pictures
-
-Additional Libraries
-
-Werkzeug · OpenPyXL · CSV · JSON
-
-Installation
-
-Prerequisites
-
-Python 3.7+
-
-MySQL Server
-
-pip package manager
+- Prerequisites
+- Python 3.7+
+- MySQL Server
+- pip package manager
